@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Pricing() {
   return (
@@ -71,12 +72,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $14.99 <span>Per month</span>
                         </div>
@@ -98,12 +99,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $29.99 <span>Per month</span>
                         </div>
@@ -125,12 +126,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $49.99 <span>Per month</span>
                         </div>
@@ -159,12 +160,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $14.99 <span>Per month</span>
                         </div>
@@ -186,12 +187,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $24.99 <span>Per month</span>
                         </div>
@@ -213,12 +214,12 @@ function Pricing() {
                           Replenish him third creature and meat of the blessed
                           void good a fruit
                         </div>
-                        <a
-                          href="course.html"
+                        <Link
+                          to="/courses"
                           className="theme-btn btn-style-eight"
                         >
                           <span className="txt">Start Plan</span>
-                        </a>
+                        </Link>
                         <div className="price">
                           $49.99 <span>Per month</span>
                         </div>
@@ -232,35 +233,6 @@ function Pricing() {
         </div>
       </section>
       {/* End Pricing Section */}
-      {/* Call To Action Section Two */}
-      <section
-        className="call-to-action-section-two"
-        style={{ backgroundImage: "url(images/background/3.png)" }}
-      >
-        <div className="auto-container">
-          <div className="content">
-            <h2>Ready to get started?</h2>
-            <div className="text">
-              Replenish him third creature and meat blessed void a fruit
-              gathered you’re, they’re two <br /> waters own morning gathered
-              greater shall had behold had seed.
-            </div>
-            <div className="buttons-box">
-              <a href="course.html" className="theme-btn btn-style-one">
-                <span className="txt">
-                  Get Stared <i className="fa fa-angle-right" />
-                </span>
-              </a>
-              <a href="course.html" className="theme-btn btn-style-two">
-                <span className="txt">
-                  All Courses <i className="fa fa-angle-right" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Call To Action Section Two */}
     </div>
   );
 }

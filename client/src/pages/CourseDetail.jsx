@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CourseDetail() {
   return (
@@ -1092,7 +1093,8 @@ function CourseDetail() {
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
-                                <span className="fa fa-star" />  256 Reviews
+                                <span className="fa fa-star" />
+                                  256 Reviews
                               </div>
                               <div className="text">
                                 Phasellus enim magna, varius et commodo ut,
@@ -1122,7 +1124,8 @@ function CourseDetail() {
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
-                                <span className="fa fa-star" />  256 Reviews
+                                <span className="fa fa-star" />
+                                  256 Reviews
                               </div>
                               <div className="text">
                                 Phasellus enim magna, varius et commodo ut,
@@ -1152,7 +1155,8 @@ function CourseDetail() {
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
-                                <span className="fa fa-star" />  256 Reviews
+                                <span className="fa fa-star" />
+                                  256 Reviews
                               </div>
                               <div className="text">
                                 Phasellus enim magna, varius et commodo ut,
@@ -1182,7 +1186,8 @@ function CourseDetail() {
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
                                 <span className="fa fa-star" />
-                                <span className="fa fa-star" />  256 Reviews
+                                <span className="fa fa-star" />
+                                  256 Reviews
                               </div>
                               <div className="text">
                                 Phasellus enim magna, varius et commodo ut,
@@ -1254,35 +1259,6 @@ function CourseDetail() {
         </div>
       </section>
       {/* End intro Courses */}
-      {/* Call To Action Section Two */}
-      <section
-        className="call-to-action-section-two"
-        style={{ backgroundImage: "url(images/background/3.png)" }}
-      >
-        <div className="auto-container">
-          <div className="content">
-            <h2>Ready to get started?</h2>
-            <div className="text">
-              Replenish him third creature and meat blessed void a fruit
-              gathered you’re, they’re two <br /> waters own morning gathered
-              greater shall had behold had seed.
-            </div>
-            <div className="buttons-box">
-              <a href="course.html" className="theme-btn btn-style-one">
-                <span className="txt">
-                  Get Stared <i className="fa fa-angle-right" />
-                </span>
-              </a>
-              <a href="course.html" className="theme-btn btn-style-two">
-                <span className="txt">
-                  All Courses <i className="fa fa-angle-right" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Call To Action Section Two */}
     </div>
   );
 }

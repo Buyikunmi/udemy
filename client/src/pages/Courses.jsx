@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Courses() {
   return (
@@ -66,14 +67,14 @@ function Courses() {
                       {/* List View */}
                       <ul className="list-view">
                         <li className="active">
-                          <a href="course.html">
+                          <Link to="/courses">
                             <span className="icon flaticon-grid" />
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="course-list.html">
+                          <Link to="/courses-list">
                             <span className="icon flaticon-list-1" />
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                       {/* Type Form */}
@@ -96,13 +97,15 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-6.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Interaction Design</a>
+                          <Link to="courses/course-detail">
+                            Interaction Design
+                          </Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -123,13 +126,13 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-7.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Visual Design</a>
+                          <Link to="courses/course-detail">Visual Design</Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -150,13 +153,15 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-8.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Wireframe Protos</a>
+                          <Link to="courses/course-detail">
+                            Wireframe Protos
+                          </Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -177,13 +182,13 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-9.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Color Theory</a>
+                          <Link to="courses/course-detail">Color Theory</Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -204,13 +209,13 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-10.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Typography</a>
+                          <Link to="courses/course-detail">Typography</Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -231,13 +236,15 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-11.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Picture Selection</a>
+                          <Link to="courses/course-detail">
+                            Picture Selection
+                          </Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -258,13 +265,15 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-12.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Interaction Design</a>
+                          <Link to="courses/course-detail">
+                            Interaction Design
+                          </Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -285,13 +294,13 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-13.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Visual Design</a>
+                          <Link to="courses/course-detail">Visual Design</Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -312,13 +321,15 @@ function Courses() {
                   <div className="cource-block-two col-lg-4 col-md-6 col-sm-12">
                     <div className="inner-box">
                       <div className="image">
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           <img src="images/resource/course-14.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="lower-content">
                         <h5>
-                          <a href="course-detail.html">Wireframe Protos</a>
+                          <Link to="courses/course-detail">
+                            Wireframe Protos
+                          </Link>
                         </h5>
                         <div className="text">
                           Replenish of third creature and meat blessed void a
@@ -496,13 +507,13 @@ function Courses() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-15.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <h5>
-                    <a href="course-detail.html">Color Theory</a>
+                    <Link to="courses/course-detail">Color Theory</Link>
                   </h5>
                   <div className="text">
                     Replenish him third creature and meat blessed void a fruit
@@ -527,13 +538,13 @@ function Courses() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-16.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <h5>
-                    <a href="course-detail.html">Typography</a>
+                    <Link to="courses/course-detail">Typography</Link>
                   </h5>
                   <div className="text">
                     Replenish him third creature and meat blessed void a fruit
@@ -558,13 +569,15 @@ function Courses() {
                 data-wow-duration="1500ms"
               >
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-17.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <h5>
-                    <a href="course-detail.html">Wireframe &amp; Prototyping</a>
+                    <Link to="courses/course-detail">
+                      Wireframe &amp; Prototyping
+                    </Link>
                   </h5>
                   <div className="text">
                     Replenish him third creature and meat blessed void a fruit
@@ -585,35 +598,6 @@ function Courses() {
         </div>
       </section>
       {/* End Popular Courses */}
-      {/* Call To Action Section Two */}
-      <section
-        className="call-to-action-section-two"
-        style={{ backgroundImage: "url(images/background/3.png)" }}
-      >
-        <div className="auto-container">
-          <div className="content">
-            <h2>Ready to get started?</h2>
-            <div className="text">
-              Replenish him third creature and meat blessed void a fruit
-              gathered you’re, they’re two <br /> waters own morning gathered
-              greater shall had behold had seed.
-            </div>
-            <div className="buttons-box">
-              <a href="course.html" className="theme-btn btn-style-one">
-                <span className="txt">
-                  Get Stared <i className="fa fa-angle-right" />
-                </span>
-              </a>
-              <a href="course.html" className="theme-btn btn-style-two">
-                <span className="txt">
-                  All Courses <i className="fa fa-angle-right" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Call To Action Section Two */}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
@@ -17,11 +18,11 @@ function NotFound() {
             <div className="image">
               <img src="images/resource/error.png" alt="" />
             </div>
-            <a href="course.html" className="theme-btn btn-style-two">
+            <Link to="/course" className="theme-btn btn-style-two">
               <span className="txt">
                 Back to the homepage <i className="fa fa-angle-right" />
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -40,16 +41,16 @@ function NotFound() {
               greater shall had behold had seed.
             </div>
             <div className="buttons-box">
-              <a href="course.html" className="theme-btn btn-style-one">
+              <Link to="/course" className="theme-btn btn-style-one">
                 <span className="txt">
                   Get Stared <i className="fa fa-angle-right" />
                 </span>
-              </a>
-              <a href="course.html" className="theme-btn btn-style-two">
+              </Link>
+              <Link to="/course" className="theme-btn btn-style-two">
                 <span className="txt">
                   All Courses <i className="fa fa-angle-right" />
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 
-function BookDetail() {
+function BooksDetail() {
   return (
     <div>
       {/* Books Detail Section */}
@@ -103,4 +103,4 @@ function BookDetail() {
   );
 }
 
-export default BookDetail;
+export default BooksDetail;

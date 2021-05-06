@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-
+import { Link } from "react-router-dom";
 function ComingSoon() {
   return (
     <div>
@@ -16,9 +16,9 @@ function ComingSoon() {
             <div className="content">
               <div className="content-inner">
                 <div className="logo">
-                  <a href="index.html">
+                  <Link href="/">
                     <img src="images/logo-3.png" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <h1>Coming Soon</h1>
                 <div className="time-counter">

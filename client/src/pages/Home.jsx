@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -21,16 +22,16 @@ function Home() {
                   Experts
                 </h1>
                 <div className="buttons-box">
-                  <a href="course.html" className="theme-btn btn-style-one">
+                  <Link to="/courses" className="theme-btn btn-style-one">
                     <span className="txt">
                       Get Stared <i className="fa fa-angle-right" />
                     </span>
-                  </a>
-                  <a href="course.html" className="theme-btn btn-style-two">
+                  </Link>
+                  <Link to="/courses" className="theme-btn btn-style-two">
                     <span className="txt">
                       All Courses <i className="fa fa-angle-right" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -106,11 +107,11 @@ function Home() {
                     gathered you’re, they’re two waters own morning gathered
                     greater shall had behold had seed.
                   </div>
-                  <a href="course.html" className="theme-btn btn-style-two">
+                  <Link to="/courses" className="theme-btn btn-style-two">
                     <span className="txt">
                       Learn More <i className="fa fa-angle-right" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -132,26 +133,28 @@ function Home() {
                       gathered you’re, they’re two waters own morning gathered.
                     </div>
                   </div>
-                  <a href="course.html" className="theme-btn btn-style-three">
+                  <Link to="/courses" className="theme-btn btn-style-three">
                     <span className="txt">
                       Get Stared <i className="fa fa-angle-right" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Cource Block */}
               <div className="cource-block col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="courses/course-detail">
                       <img src="images/resource/course-1.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <div className="clearfix">
                       <div className="pull-left">
                         <h5>
-                          <a href="course-detail.html">Computer Science</a>
+                          <Link to="courses/course-detail">
+                            Computer Science
+                          </Link>
                         </h5>
                       </div>
                       <div className="pull-right">
@@ -167,9 +170,9 @@ function Home() {
                         <div className="students">125 Student</div>
                       </div>
                       <div className="pull-right">
-                        <a href="course-detail.html" className="enroll">
+                        <Link to="courses/course-detail" className="enroll">
                           Enroll Now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -179,15 +182,15 @@ function Home() {
               <div className="cource-block col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="courses/course-detail">
                       <img src="images/resource/course-2.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <div className="clearfix">
                       <div className="pull-left">
                         <h5>
-                          <a href="course-detail.html">Data Science</a>
+                          <Link to="courses/course-detail">Data Science</Link>
                         </h5>
                       </div>
                       <div className="pull-right">
@@ -203,9 +206,9 @@ function Home() {
                         <div className="students">125 Student</div>
                       </div>
                       <div className="pull-right">
-                        <a href="course-detail.html" className="enroll">
+                        <Link to="courses/course-detail" className="enroll">
                           Enroll Now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -215,15 +218,17 @@ function Home() {
               <div className="cource-block col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="courses/course-detail">
                       <img src="images/resource/course-3.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <div className="clearfix">
                       <div className="pull-left">
                         <h5>
-                          <a href="course-detail.html">Development Course</a>
+                          <Link to="courses/course-detail">
+                            Development Course
+                          </Link>
                         </h5>
                       </div>
                       <div className="pull-right">
@@ -239,9 +244,9 @@ function Home() {
                         <div className="students">125 Student</div>
                       </div>
                       <div className="pull-right">
-                        <a href="course-detail.html" className="enroll">
+                        <Link to="courses/course-detail" className="enroll">
                           Enroll Now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -251,15 +256,17 @@ function Home() {
               <div className="cource-block col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="courses/course-detail">
                       <img src="images/resource/course-4.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <div className="clearfix">
                       <div className="pull-left">
                         <h5>
-                          <a href="course-detail.html">Language Course</a>
+                          <Link to="courses/course-detail">
+                            Language Course
+                          </Link>
                         </h5>
                       </div>
                       <div className="pull-right">
@@ -275,9 +282,9 @@ function Home() {
                         <div className="students">125 Student</div>
                       </div>
                       <div className="pull-right">
-                        <a href="course-detail.html" className="enroll">
+                        <Link to="courses/course-detail" className="enroll">
                           Enroll Now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -287,15 +294,17 @@ function Home() {
               <div className="cource-block col-lg-4 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="courses/course-detail">
                       <img src="images/resource/course-5.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <div className="clearfix">
                       <div className="pull-left">
                         <h5>
-                          <a href="course-detail.html">Business Course</a>
+                          <Link to="courses/course-detail">
+                            Business Course
+                          </Link>
                         </h5>
                       </div>
                       <div className="pull-right">
@@ -311,9 +320,9 @@ function Home() {
                         <div className="students">125 Student</div>
                       </div>
                       <div className="pull-right">
-                        <a href="course-detail.html" className="enroll">
+                        <Link to="courses/course-detail" className="enroll">
                           Enroll Now
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -508,9 +517,9 @@ function Home() {
                     <h2>Upcoming events</h2>
                   </div>
                   <div className="pull-right">
-                    <a href="course-detail.html" className="events">
+                    <Link to="courses/course-detail" className="events">
                       All Events
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 {/* Blocks Outer */}
@@ -526,15 +535,19 @@ function Home() {
                         {/* Event List */}
                         <ul className="event-list">
                           <li>
-                            <a href="course-detail.html">ART &amp; DESIGN</a>
+                            <Link to="courses/course-detail">
+                              ART &amp; DESIGN
+                            </Link>
                           </li>
                           <li>
-                            <a href="course-detail.html">PAINTING</a>
+                            <Link to="courses/course-detail">PAINTING</Link>
                           </li>
                         </ul>
                       </div>
                       <h3>
-                        <a href="course-detail.html">Workshop on UI/ UX</a>
+                        <Link to="courses/course-detail">
+                          Workshop on UI/ UX
+                        </Link>
                       </h3>
                     </div>
                   </div>
@@ -549,15 +562,19 @@ function Home() {
                         {/* Event List */}
                         <ul className="event-list">
                           <li>
-                            <a href="course-detail.html">ART &amp; DESIGN</a>
+                            <Link to="courses/course-detail">
+                              ART &amp; DESIGN
+                            </Link>
                           </li>
                           <li>
-                            <a href="course-detail.html">PAINTING</a>
+                            <Link to="courses/course-detail">PAINTING</Link>
                           </li>
                         </ul>
                       </div>
                       <h3>
-                        <a href="course-detail.html">Amsterdam art weekend</a>
+                        <Link to="courses/course-detail">
+                          Amsterdam art weekend
+                        </Link>
                       </h3>
                     </div>
                   </div>
@@ -572,17 +589,19 @@ function Home() {
                         {/* Event List */}
                         <ul className="event-list">
                           <li>
-                            <a href="course-detail.html">ART &amp; DESIGN</a>
+                            <Link to="courses/course-detail">
+                              ART &amp; DESIGN
+                            </Link>
                           </li>
                           <li>
-                            <a href="course-detail.html">PAINTING</a>
+                            <Link to="courses/course-detail">PAINTING</Link>
                           </li>
                         </ul>
                       </div>
                       <h3>
-                        <a href="course-detail.html">
+                        <Link to="courses/course-detail">
                           Outside fashion - Group exhibition
-                        </a>
+                        </Link>
                       </h3>
                     </div>
                   </div>
@@ -607,34 +626,32 @@ function Home() {
                       greater shall had behold had seed.
                     </div>
                   </div>
-                  <a href="course.html" className="theme-btn btn-style-three">
+                  <Link to="/courses" className="theme-btn btn-style-three">
                     <span className="txt">
                       All Blog Post <i className="fa fa-angle-right" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* News Column */}
               <div className="news-block col-lg-6 col-md-12 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="blog-detail.html">
+                    <Link to="/blog">
                       <img src="images/resource/news-1.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h3>
-                      <a href="blog-detail.html">
-                        To apply signal detection theory
-                      </a>
+                      <Link to="/blog">To apply signal detection theory</Link>
                     </h3>
                     <div className="text">
                       Replenish him third creature and meat blessed void a fruit
                       gathered you’re, they’re two waters
                     </div>
-                    <a href="blog-detail.html" className="read-more">
+                    <Link to="/blog" className="read-more">
                       Continue Reading
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -750,16 +767,16 @@ function Home() {
                 greater shall had behold had seed.
               </div>
               <div className="buttons-box">
-                <a href="course.html" className="theme-btn btn-style-one">
+                <Link to="/courses" className="theme-btn btn-style-one">
                   <span className="txt">
                     Get Stared <i className="fa fa-angle-right" />
                   </span>
-                </a>
-                <a href="course.html" className="theme-btn btn-style-two">
+                </Link>
+                <Link to="/courses" className="theme-btn btn-style-two">
                   <span className="txt">
                     All Courses <i className="fa fa-angle-right" />
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

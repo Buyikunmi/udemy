@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CoursePath() {
   return (
@@ -62,11 +63,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-code" />
                 </div>
                 <h5>
-                  <a href="course.html">Development</a>
+                  <Link to="/courses">Development</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -85,11 +86,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-graphic" />
                 </div>
                 <h5>
-                  <a href="course.html">Business</a>
+                  <Link to="/courses">Business</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -108,11 +109,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-code-1" />
                 </div>
                 <h5>
-                  <a href="course.html">IT&amp; Software</a>
+                  <Link to="/courses">IT&amp; Software</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -131,11 +132,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-shout" />
                 </div>
                 <h5>
-                  <a href="course.html">Marketing</a>
+                  <Link to="/courses">Marketing</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -154,11 +155,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-sketch" />
                 </div>
                 <h5>
-                  <a href="course.html">Design</a>
+                  <Link to="/courses">Design</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -177,11 +178,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-lifestyle" />
                 </div>
                 <h5>
-                  <a href="course.html">Lifestyle</a>
+                  <Link to="/courses">Lifestyle</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -200,11 +201,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-camera" />
                 </div>
                 <h5>
-                  <a href="course.html">Photography</a>
+                  <Link to="/courses">Photography</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -223,11 +224,11 @@ function CoursePath() {
             <div className="topic-block col-lg-3 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="icon-box">
-                  <a href="course.html" className="overlay-link" />
+                  <Link to="/courses" className="overlay-link" />
                   <span className="icon flaticon-video" />
                 </div>
                 <h5>
-                  <a href="course.html">Music</a>
+                  <Link to="/courses">Music</Link>
                 </h5>
                 <div className="text">
                   Replenish him third creature and meat blessed
@@ -244,11 +245,11 @@ function CoursePath() {
             </div>
           </div>
           <div className="btn-box text-center">
-            <a href="course.html" className="theme-btn btn-style-three">
+            <Link to="/courses" className="theme-btn btn-style-three">
               <span className="txt">
                 See All Topics <i className="fa fa-angle-right" />
               </span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -268,15 +269,17 @@ function CoursePath() {
             <div className="cource-block col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-3.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <div className="clearfix">
                     <div className="pull-left">
                       <h5>
-                        <a href="course-detail.html">Development Course</a>
+                        <Link to="courses/course-detail">
+                          Development Course
+                        </Link>
                       </h5>
                     </div>
                     <div className="pull-right">
@@ -292,9 +295,9 @@ function CoursePath() {
                       <div className="students">125 Student</div>
                     </div>
                     <div className="pull-right">
-                      <a href="course-detail.html" className="enroll">
+                      <Link to="courses/course-detail" className="enroll">
                         Enroll Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -304,15 +307,15 @@ function CoursePath() {
             <div className="cource-block col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-4.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <div className="clearfix">
                     <div className="pull-left">
                       <h5>
-                        <a href="course-detail.html">Language Course</a>
+                        <Link to="courses/course-detail">Language Course</Link>
                       </h5>
                     </div>
                     <div className="pull-right">
@@ -328,9 +331,9 @@ function CoursePath() {
                       <div className="students">125 Student</div>
                     </div>
                     <div className="pull-right">
-                      <a href="course-detail.html" className="enroll">
+                      <Link to="courses/course-detail" className="enroll">
                         Enroll Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -340,15 +343,15 @@ function CoursePath() {
             <div className="cource-block col-lg-4 col-md-6 col-sm-12">
               <div className="inner-box">
                 <div className="image">
-                  <a href="course-detail.html">
+                  <Link to="courses/course-detail">
                     <img src="images/resource/course-5.jpg" alt="" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="lower-content">
                   <div className="clearfix">
                     <div className="pull-left">
                       <h5>
-                        <a href="course-detail.html">Business Course</a>
+                        <Link to="courses/course-detail">Business Course</Link>
                       </h5>
                     </div>
                     <div className="pull-right">
@@ -364,9 +367,9 @@ function CoursePath() {
                       <div className="students">125 Student</div>
                     </div>
                     <div className="pull-right">
-                      <a href="course-detail.html" className="enroll">
+                      <Link to="courses/course-detail" className="enroll">
                         Enroll Now
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

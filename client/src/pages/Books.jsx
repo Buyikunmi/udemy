@@ -1,9 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
+import Preloader from "./static/Preloader";
 
 function Books() {
   return (
     <div>
+      <Preloader />
       {/* Page Title */}
       <section className="page-title">
         <div className="auto-container">
@@ -97,29 +100,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -136,29 +139,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -175,27 +178,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -212,29 +217,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -251,29 +256,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-5.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-5.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Designed for Use
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -290,29 +295,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-6.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-6.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Design of Everyday
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -329,29 +334,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-7.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-7.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Undercover UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -368,29 +373,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-8.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-8.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Interaction Design
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -407,29 +412,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -446,29 +451,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -485,27 +490,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -522,29 +529,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -568,29 +575,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -607,29 +614,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -646,27 +653,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -683,29 +692,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -722,29 +731,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-5.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-5.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Designed for Use
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -761,29 +770,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-6.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-6.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Design of Everyday
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -800,29 +809,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-7.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-7.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Undercover UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -839,29 +848,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-8.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-8.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Interaction Design
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -878,29 +887,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -917,29 +926,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -956,27 +965,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -993,29 +1004,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1039,29 +1050,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1078,29 +1089,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1117,27 +1128,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1154,29 +1167,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1193,29 +1206,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-5.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-5.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Designed for Use
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1232,29 +1245,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-6.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-6.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Design of Everyday
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1271,29 +1284,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-7.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-7.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Undercover UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1310,29 +1323,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-8.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-8.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Interaction Design
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1349,29 +1362,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1388,29 +1401,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1427,27 +1440,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1464,29 +1479,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1510,29 +1525,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1549,29 +1564,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1588,27 +1603,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1625,29 +1642,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1664,29 +1681,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-5.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-5.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Designed for Use
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1703,29 +1720,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-6.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-6.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Design of Everyday
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1742,29 +1759,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-7.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-7.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Undercover UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1781,29 +1798,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-8.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-8.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Interaction Design
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1820,29 +1837,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1859,29 +1876,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1898,27 +1915,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1935,29 +1954,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -1981,29 +2000,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2020,29 +2039,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2059,27 +2078,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2096,29 +2117,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2135,29 +2156,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-5.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-5.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Designed for Use
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2174,29 +2195,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-6.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-6.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Design of Everyday
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2213,29 +2234,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-7.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-7.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Undercover UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2252,29 +2273,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-8.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-8.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Interaction Design
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2291,29 +2312,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-1.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-1.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       Don’t make me think
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2330,29 +2351,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-2.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-2.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       101 Design Methods
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2369,27 +2390,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-3.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-3.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">Lean UX</a>
+                                    <Link to="/books/books-detail">
+                                      Lean UX
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2406,29 +2429,29 @@ function Books() {
                                   <div className="overlay-box">
                                     <div className="overlay-inner">
                                       <div className="content">
-                                        <a
-                                          href="books-detail.html"
+                                        <Link
+                                          to="/books/books-detail"
                                           className="link"
                                         >
                                           <span className="icon fa fa-link" />
-                                        </a>
-                                        <a
-                                          href="images/resource/book-4.jpg"
+                                        </Link>
+                                        <Link
+                                          to="images/resource/book-4.jpg"
                                           data-fancybox="books"
                                           data-caption
                                           className="link"
                                         >
                                           <span className="icon flaticon-full-screen" />
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </figure>
                                 <div className="lower-box">
                                   <h6>
-                                    <a href="books-detail.html">
+                                    <Link to="/books/books-detail">
                                       The Elements of UX
-                                    </a>
+                                    </Link>
                                   </h6>
                                 </div>
                               </div>
@@ -2443,38 +2466,38 @@ function Books() {
                 <div className="styled-pagination">
                   <ul className="clearfix">
                     <li className="prev">
-                      <a href="#">
+                      <Link to="#">
                         <span className="fa fa-angle-left" />{" "}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">1</a>
+                      <Link to="#">1</Link>
                     </li>
                     <li>
-                      <a href="#">2</a>
+                      <Link to="#">2</Link>
                     </li>
                     <li className="active">
-                      <a href="#">3</a>
+                      <Link to="#">3</Link>
                     </li>
                     <li>
-                      <a href="#">4</a>
+                      <Link to="#">4</Link>
                     </li>
                     <li>
-                      <a href="#">5</a>
+                      <Link to="#">5</Link>
                     </li>
                     <li>
-                      <a href="#">6</a>
+                      <Link to="#">6</Link>
                     </li>
                     <li>
-                      <a href="#">7</a>
+                      <Link to="#">7</Link>
                     </li>
                     <li>
-                      <a href="#">8</a>
+                      <Link to="#">8</Link>
                     </li>
                     <li className="next">
-                      <a href="#">
+                      <Link to="#">
                         <span className="fa fa-angle-right" />{" "}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -2489,17 +2512,17 @@ function Books() {
                   <div className="book-widget">
                     <div className="widget-inner">
                       <div className="image">
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           <img src="images/resource/book-9.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
-                      <a className="tag" href="books-detail.html">
+                      <Link className="tag" to="/books/books-detail">
                         <span className="fa fa-bookmark-o" />
-                      </a>
+                      </Link>
                       <h6>
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           Don’t Make Me <br /> Think
-                        </a>
+                        </Link>
                       </h6>
                       <div className="author">By Steve Krug</div>
                     </div>
@@ -2508,17 +2531,17 @@ function Books() {
                   <div className="book-widget">
                     <div className="widget-inner">
                       <div className="image">
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           <img src="images/resource/book-10.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
-                      <a className="tag" href="books-detail.html">
+                      <Link className="tag" to="/books/books-detail">
                         <span className="fa fa-bookmark-o" />
-                      </a>
+                      </Link>
                       <h6>
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           Essential of <br /> Interaction Design
-                        </a>
+                        </Link>
                       </h6>
                       <div className="author">By Alan Cooper</div>
                     </div>
@@ -2527,17 +2550,17 @@ function Books() {
                   <div className="book-widget">
                     <div className="widget-inner">
                       <div className="image">
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           <img src="images/resource/book-11.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
-                      <a className="tag" href="books-detail.html">
+                      <Link className="tag" to="/books/books-detail">
                         <span className="fa fa-bookmark-o" />
-                      </a>
+                      </Link>
                       <h6>
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           Non Designers <br /> Design Book
-                        </a>
+                        </Link>
                       </h6>
                       <div className="author">By Robin Williams</div>
                     </div>
@@ -2546,17 +2569,17 @@ function Books() {
                   <div className="book-widget">
                     <div className="widget-inner">
                       <div className="image">
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           <img src="images/resource/book-12.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
-                      <a className="tag" href="books-detail.html">
+                      <Link className="tag" to="/books/books-detail">
                         <span className="fa fa-bookmark-o" />
-                      </a>
+                      </Link>
                       <h6>
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           Sketching User <br /> Experience
-                        </a>
+                        </Link>
                       </h6>
                       <div className="author">By Bill Buxton</div>
                     </div>
@@ -2565,17 +2588,17 @@ function Books() {
                   <div className="book-widget">
                     <div className="widget-inner">
                       <div className="image">
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           <img src="images/resource/book-13.jpg" alt="" />
-                        </a>
+                        </Link>
                       </div>
-                      <a className="tag" href="books-detail.html">
+                      <Link className="tag" to="/books/books-detail">
                         <span className="fa fa-bookmark-o" />
-                      </a>
+                      </Link>
                       <h6>
-                        <a href="books-detail.html">
+                        <Link to="/books/books-detail">
                           Rocket Surgery <br /> Made Easy
-                        </a>
+                        </Link>
                       </h6>
                       <div className="author">By Steve Krug</div>
                     </div>
@@ -2601,24 +2624,24 @@ function Books() {
                     <div className="overlay-box">
                       <div className="overlay-inner">
                         <div className="content">
-                          <a href="books-detail.html" className="link">
+                          <Link to="/books/books-detail" className="link">
                             <span className="icon fa fa-link" />
-                          </a>
-                          <a
-                            href="images/resource/book-14.jpg"
+                          </Link>
+                          <Link
+                            to="images/resource/book-14.jpg"
                             data-fancybox="books"
                             data-caption
                             className="link"
                           >
                             <span className="icon flaticon-full-screen" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </figure>
                   <div className="lower-box">
                     <h6>
-                      <a href="books-detail.html">Don’t make me think</a>
+                      <Link to="/books/books-detail">Don’t make me think</Link>
                     </h6>
                   </div>
                 </div>
@@ -2632,24 +2655,24 @@ function Books() {
                     <div className="overlay-box">
                       <div className="overlay-inner">
                         <div className="content">
-                          <a href="books-detail.html" className="link">
+                          <Link to="/books/books-detail" className="link">
                             <span className="icon fa fa-link" />
-                          </a>
-                          <a
-                            href="images/resource/book-15.jpg"
+                          </Link>
+                          <Link
+                            to="images/resource/book-15.jpg"
                             data-fancybox="books"
                             data-caption
                             className="link"
                           >
                             <span className="icon flaticon-full-screen" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </figure>
                   <div className="lower-box">
                     <h6>
-                      <a href="books-detail.html">Design of Everyday</a>
+                      <Link to="/books/books-detail">Design of Everyday</Link>
                     </h6>
                   </div>
                 </div>
@@ -2663,24 +2686,24 @@ function Books() {
                     <div className="overlay-box">
                       <div className="overlay-inner">
                         <div className="content">
-                          <a href="books-detail.html" className="link">
+                          <Link to="/books/books-detail" className="link">
                             <span className="icon fa fa-link" />
-                          </a>
-                          <a
-                            href="images/resource/book-16.jpg"
+                          </Link>
+                          <Link
+                            to="images/resource/book-16.jpg"
                             data-fancybox="books"
                             data-caption
                             className="link"
                           >
                             <span className="icon flaticon-full-screen" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </figure>
                   <div className="lower-box">
                     <h6>
-                      <a href="books-detail.html">Undercover UX Design</a>
+                      <Link to="/books/books-detail">Undercover UX Design</Link>
                     </h6>
                   </div>
                 </div>
@@ -2694,24 +2717,24 @@ function Books() {
                     <div className="overlay-box">
                       <div className="overlay-inner">
                         <div className="content">
-                          <a href="books-detail.html" className="link">
+                          <Link to="/books/books-detail" className="link">
                             <span className="icon fa fa-link" />
-                          </a>
-                          <a
-                            href="images/resource/book-17.jpg"
+                          </Link>
+                          <Link
+                            to="images/resource/book-17.jpg"
                             data-fancybox="books"
                             data-caption
                             className="link"
                           >
                             <span className="icon flaticon-full-screen" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                   </figure>
                   <div className="lower-box">
                     <h6>
-                      <a href="books-detail.html">Interaction Design</a>
+                      <Link to="/books/books-detail">Interaction Design</Link>
                     </h6>
                   </div>
                 </div>
@@ -2721,35 +2744,6 @@ function Books() {
         </div>
       </section>
       {/* End Books Page Section */}
-      {/* Call To Action Section Two */}
-      <section
-        className="call-to-action-section-two"
-        style={{ backgroundImage: "url(images/background/3.png)" }}
-      >
-        <div className="auto-container">
-          <div className="content">
-            <h2>Ready to get started?</h2>
-            <div className="text">
-              Replenish him third creature and meat blessed void a fruit
-              gathered you’re, they’re two <br /> waters own morning gathered
-              greater shall had behold had seed.
-            </div>
-            <div className="buttons-box">
-              <a href="course.html" className="theme-btn btn-style-one">
-                <span className="txt">
-                  Get Stared <i className="fa fa-angle-right" />
-                </span>
-              </a>
-              <a href="course.html" className="theme-btn btn-style-two">
-                <span className="txt">
-                  All Courses <i className="fa fa-angle-right" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End Call To Action Section Two */}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function InstructorProfile() {
   return (
@@ -124,13 +125,15 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-6.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Interaction Design</a>
+                      <Link to="/courses/course-detail">
+                        Interaction Design
+                      </Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -151,13 +154,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-7.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Visual Design</a>
+                      <Link to="/courses/course-detail">Visual Design</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -178,13 +181,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-8.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Wireframe Protos</a>
+                      <Link to="/courses/course-detail">Wireframe Protos</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -205,13 +208,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-25.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Wireframe Protos</a>
+                      <Link to="/courses/course-detail">Wireframe Protos</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -232,13 +235,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-9.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Color Theory</a>
+                      <Link to="/courses/course-detail">Color Theory</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -259,13 +262,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-10.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Typography</a>
+                      <Link to="/courses/course-detail">Typography</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -286,13 +289,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-11.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Picture Selection</a>
+                      <Link to="/courses/course-detail">Picture Selection</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -313,13 +316,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-26.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Picture Selection</a>
+                      <Link to="/courses/course-detail">Picture Selection</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -340,13 +343,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-11.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Picture Selection</a>
+                      <Link to="/courses/course-detail">Picture Selection</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -367,13 +370,15 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-12.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Interaction Design</a>
+                      <Link to="/courses/course-detail">
+                        Interaction Design
+                      </Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -394,13 +399,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-13.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Visual Design</a>
+                      <Link to="/courses/course-detail">Visual Design</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -421,13 +426,13 @@ function InstructorProfile() {
               <div className="cource-block-two col-lg-3 col-md-6 col-sm-12">
                 <div className="inner-box">
                   <div className="image">
-                    <a href="course-detail.html">
+                    <Link to="/courses/course-detail">
                       <img src="images/resource/course-27.jpg" alt="" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="lower-content">
                     <h5>
-                      <a href="course-detail.html">Visual Design</a>
+                      <Link to="/courses/course-detail">Visual Design</Link>
                     </h5>
                     <div className="text">
                       Replenish of third creature and meat blessed void a fruit
@@ -450,7 +455,7 @@ function InstructorProfile() {
               <ul className="clearfix">
                 <li className="prev">
                   <a href="#">
-                    <span className="fa fa-angle-left" />{" "}
+                    <span className="fa fa-angle-left" />
                   </a>
                 </li>
                 <li>

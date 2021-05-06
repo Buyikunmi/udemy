@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -32,10 +33,10 @@ function Header() {
                 {/* Login Nav */}
                 <ul className="login-nav">
                   <li>
-                    <a href="login.html">Log In</a>
+                    <Link to="/login">Log In</Link>
                   </li>
                   <li>
-                    <a href="register.html">Register</a>
+                    <Link to="/register">Register</Link>
                   </li>
                 </ul>
               </div>
@@ -48,9 +49,9 @@ function Header() {
             <div className="clearfix">
               <div className="pull-left logo-box">
                 <div className="logo">
-                  <a href="index.html">
+                  <Link to="/">
                     <img src="images/logo.png" alt="" title="Bootcamp" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="nav-outer clearfix">
@@ -84,13 +85,13 @@ function Header() {
                         <a href="#">Home</a>
                         <ul>
                           <li>
-                            <a href="index.html">Home Page 01</a>
+                            <Link to="/">Home Page 01</Link>
                           </li>
                           <li>
-                            <a href="index-2.html">Home Page 02</a>
+                            <Link to="/">Home Page 02</Link>
                           </li>
                           <li>
-                            <a href="index-3.html">Home Page 03</a>
+                            <Link to="/">Home Page 03</Link>
                           </li>
                         </ul>
                       </li>
@@ -98,19 +99,19 @@ function Header() {
                         <a href="#">Pages</a>
                         <ul>
                           <li>
-                            <a href="price.html">Pricing</a>
+                            <Link to="/pricing">Pricing</Link>
                           </li>
                           <li>
-                            <a href="login.html">Login</a>
+                            <Link to="/login">Login</Link>
                           </li>
                           <li>
-                            <a href="register.html">Register</a>
+                            <Link to="/register">Register</Link>
                           </li>
                           <li>
-                            <a href="privacy.html">Privacy Policy</a>
+                            <Link to="/privacy">Privacy Policy</Link>
                           </li>
                           <li>
-                            <a href="comming-soon.html">Coming Soon</a>
+                            <Link to="/comming-soon">Coming Soon</Link>
                           </li>
                         </ul>
                       </li>
@@ -118,19 +119,25 @@ function Header() {
                         <a href="#">Courses</a>
                         <ul>
                           <li>
-                            <a href="course.html">Courses As Grid</a>
+                            <Link to="/courses">Courses As Grid</Link>
                           </li>
                           <li>
-                            <a href="course-list.html">Courses As List</a>
+                            <Link to="/courses/course-list">
+                              Courses As List
+                            </Link>
                           </li>
                           <li>
-                            <a href="course-path.html">Course Topics</a>
+                            <Link to="/courses/course-path">Course Topics</Link>
                           </li>
                           <li>
-                            <a href="course-lesson.html">Course Lesson</a>
+                            <Link to="/courses/course-lesson">
+                              Course Lesson
+                            </Link>
                           </li>
                           <li>
-                            <a href="course-detail.html">Course Details</a>
+                            <Link to="/courses/course-detail">
+                              Course Details
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -138,10 +145,10 @@ function Header() {
                         <a href="#">Books</a>
                         <ul>
                           <li>
-                            <a href="books.html">Books</a>
+                            <Link to="/books">Books</Link>
                           </li>
                           <li>
-                            <a href="books-detail.html">Book Detail</a>
+                            <a href="/books-detail">Book Detail</a>
                           </li>
                         </ul>
                       </li>
@@ -149,13 +156,13 @@ function Header() {
                         <a href="#">Profiles</a>
                         <ul>
                           <li>
-                            <a href="intro-profile.html">Instructor Profile</a>
+                            <Link to="/intro-profile">Instructor Profile</Link>
                           </li>
                           <li>
-                            <a href="student-profile.html">Student Profile</a>
+                            <Link to="/student-profile">Student Profile</Link>
                           </li>
                           <li>
-                            <a href="edit-profile.html">Edit Profile</a>
+                            <Link to="profile/edit">Edit Profile</Link>
                           </li>
                         </ul>
                       </li>
@@ -163,13 +170,13 @@ function Header() {
                         <a href="#">Blog</a>
                         <ul>
                           <li>
-                            <a href="blog.html">Blog</a>
+                            <Link to="/blog">Blog</Link>
                           </li>
                           <li>
-                            <a href="blog-detail.html">Blog Detail</a>
+                            <Link href="/blog/blog-detail">Blog Detail</Link>
                           </li>
                           <li>
-                            <a href="error.html">Not Found / 404</a>
+                            <Link to="/error">Not Found / 404</Link>
                           </li>
                         </ul>
                       </li>
@@ -188,7 +195,7 @@ function Header() {
                         </ul>
                       </li>
                       <li>
-                        <a href="contact.html">Contact Us</a>
+                        <Link to="/contact">Contact Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -206,9 +213,9 @@ function Header() {
           </div>
           <nav className="menu-box">
             <div className="nav-logo">
-              <a href="index.html">
+              <Link to="/">
                 <img src="images/logo-5.png" alt="" title />
-              </a>
+              </Link>
             </div>
             <div className="menu-outer">
               {/*Here Menu Will Come Automatically Via Javascript / Same Menu as in Header*/}
