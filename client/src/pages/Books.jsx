@@ -6,7 +6,6 @@ import Preloader from "./static/Preloader";
 function Books() {
   return (
     <div>
-      <Preloader />
       {/* Page Title */}
       <section className="page-title">
         <div className="auto-container">

@@ -17,27 +17,29 @@ import CoursePath from "./pages/CoursePath";
 import CourseLesson from "./pages/CourseLesson";
 import EditProfile from "./pages/EditProfile";
 import Books from "./pages/Books";
+import InstructorProfile from "./pages/InstructorProfile";
 
 function App() {
   return (
     <>
-      {/* <Preloader /> */}
+      <Preloader />
       <Header />
       <main>
         <Switch>
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
-          <Route path="/courses" component={Courses} />
+
           {/* <Route path="/blog" component={Blog} /> */}
           <Route path="/books/books-detail" component={BooksDetail} />
           <Route path="/books" component={Books} />
           <Route path="/student-profile" component={StudentProfile} />
-          <Route path="/instructor-profile" component={StudentProfile} />
+          <Route path="/insto-profile" component={InstructorProfile} />
           <Route path="/privacy" component={Privacy} />
           <Route path="/pricing" component={Pricing} />
           <Route path="/coming-soon" component={ComingSoon} />
-          <Route path="courses/course-path" component={CoursePath} />
-          <Route path="courses/course-lesson" component={CourseLesson} />
+          <Route path="/courses/course-path" component={CoursePath} />
+          <Route path="/courses/course-lesson" component={CourseLesson} />
+          <Route path="/courses" component={Courses} />
           <Route path="/profile/edit" component={EditProfile} />
           <Route path="/" component={Home} />
         </Switch>
